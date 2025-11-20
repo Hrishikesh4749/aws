@@ -1,3 +1,8 @@
+copy artifact
+build pipeline
+email extension template 
+deploy to container
+
 **MINIKUBE**
 
 minikube start --driver=docker
