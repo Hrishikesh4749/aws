@@ -83,7 +83,7 @@ json and then add it
 pipeline {
     agent any
     tools{
-        maven 'MAVEN_HOME'
+        maven 'MAVEN-HOME'
     }
     stages {
         stage('git repo & clean') {
