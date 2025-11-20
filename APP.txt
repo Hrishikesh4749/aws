@@ -62,7 +62,12 @@ COPY target/*.war /usr/local/tomcat/webapps/ROOT.war
 
 CMD ["catalina.sh", "run"]
 
+***Ngrok***
 
+after pasting the auth token from the ngrok.com
+ngrok http portnumber//then enter we will get a url copy that url and got to github
+in git hub go to settings webhooks and then click on add webhook on top right and then paste the url in the payload url and then set the content type as
+json and then add it
 
 **PIPELINE CODE**
 
