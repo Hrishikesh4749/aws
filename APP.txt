@@ -110,3 +110,56 @@ pipeline {
         }
     }
 }
+
+
+
+"git commands week2"
+git init
+git status
+
+touch .gitignore
+notepad .gitignore
+
+git add .
+git status
+git commit -m "Initial commit"
+
+git branch -M main
+git branch
+
+git remote add origin https://github.com/yourusername/yourrepo.git
+git remote -v
+git remote show origin
+
+git push -u origin main
+
+git pull origin main --allow-unrelated-histories
+git push
+
+git --version
+git config --list
+
+git branch lab1
+git checkout lab1
+git checkout main
+git merge lab1
+git branch -d lab1
+
+git diff
+
+git stash
+git stash list
+git stash apply
+
+git restore target/
+git add src/main/java
+git commit -m "Restored changes from stash"
+git stash drop
+
+git log
+git log --oneline
+git show
+
+git fetch origin
+git branch --merged
+git blame pom.xml
