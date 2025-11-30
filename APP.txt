@@ -17,10 +17,11 @@ deploy to container
     <scope>provided</scope>
 </dependency>
 <dependency>
-    <groupId>javax.servlet.jsp.jstl</groupId>
+    <groupId>javax.servlet.jsp</groupId>
     <artifactId>jstl</artifactId>
     <version>1.2</version>
 </dependency>
+
 #if this third is not there then only add it
 <dependency>
     <groupId>junit</groupId>
