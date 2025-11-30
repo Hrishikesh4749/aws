@@ -3,6 +3,15 @@ build pipeline
 email extension template 
 deploy to container
 
+
+"maven lab4"
+<dependency>
+  <groupId>com.google.code.gson</groupId>
+  <artifactId>gson</artifactId>
+  <version>2.10</version>
+</dependency>
+
+
 **MINIKUBE**
 
 minikube start --driver=docker
