@@ -114,6 +114,12 @@ pipeline {
 
 
 "git commands week2"
+git --version
+
+git config --global user.name "Your Name"
+git config --global user.email "youremail@example.com"
+git config --list
+
 git init
 git status
 
@@ -135,9 +141,6 @@ git push -u origin main
 
 git pull origin main --allow-unrelated-histories
 git push
-
-git --version
-git config --list
 
 git branch lab1
 git checkout lab1
